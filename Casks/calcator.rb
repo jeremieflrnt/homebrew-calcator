@@ -1,6 +1,6 @@
 cask "calcator" do
-  version "0.1.1"
-  sha256 "179021b66c14bce917df9708a85e9c913ab87af11f3a1382a7027402c3217805"
+  version "0.1.2"
+  sha256 "dedb29de4586197990674b0cb7a52d8a386df154997950545a8115ac896dd7b2"
 
   url "https://github.com/jeremieflrnt/calcator-release/releases/download/v#{version}/Calcator-#{version}.dmg"
   name "Calcator"

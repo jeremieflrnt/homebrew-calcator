@@ -1,8 +1,8 @@
 cask "calcator" do
-  version "0.1.3"
-  sha256 "735e5cf452b72240dda1fb19a3091806b2274dcceb5f0ff57f4eb5c9195809c3"
+  version "0.1.4"
+  sha256 "99d5425838f16a1b94bcf76cf1d81b55283dd016108da854a3420b16f8f5d197"
 
-  url "https://github.com/jeremieflrnt/calcator-release/releases/download/v#{version}/Calcator.dmg"
+  url "https://calcator.app/downloads/Calcator-#{version}.dmg"
   name "Calcator"
   desc "Calculator notebook app for macOS"
   homepage "https://calcator.app"

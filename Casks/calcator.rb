@@ -7,12 +7,10 @@ cask "calcator" do
   desc "Calculator notebook app for macOS"
   homepage "https://calcator.app"
 
-  # Automatically detect new versions from GitHub releases
+  # Version from the download link on calcator.app
   livecheck do
-    url "https://api.github.com/repos/jeremieflrnt/calcator-release/releases/latest"
-    strategy :json do |json|
-      json["tag_name"]&.delete_prefix("v")
-    end
+    url :homepage
+    regex(/Calcator-(\d+(?:\.\d+)+)\.dmg/)
   end
 
   # Install the app

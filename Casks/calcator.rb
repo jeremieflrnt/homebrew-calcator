@@ -1,6 +1,6 @@
 cask "calcator" do
-  version "0.2.2"
-  sha256 "f8df57ea470fcbb8fe483f099863ae103bab6f9372780c3dc55a9ac1abcb3e6a"
+  version "0.2.3"
+  sha256 "49692e799a5986a4e9bcdc8fe1719335a3f57d1912fcbf7caa9ebd6b4c884b0a"
 
   url "https://calcator.app/downloads/Calcator_#{version}_aarch64.dmg"
   name "Calcator"
